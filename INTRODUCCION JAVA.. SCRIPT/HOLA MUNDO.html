@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial- scale=1.0"/>
+    <link rel="stilesheet" href="./estilos.css" />
+    ><title>mi primera pagina web con javescript</title>
+    <!-- forma n2- etiqueta script en head-->
+    <script defer>
+        alert('se ejecuta desde head');
+    </script>
+
+    <!-- forma n3- archivo externo-->
+    <script defer src="./hola mundo.js"></script>
+</head>
+<body>
+    <h1>Hola Mundo</h1>
+    <!-- forma n1- etiqueta script-->
+    <script>
+
+        // Notas importantes:
+        // - javascript es sencible a mayusculas y minusculas.
+        // - respetar la sintexis de tipo camel case. getElementById.
+        // - punto y como al final de cada sentencia.
+
+        // comentarios de tipo linea
+        /*
+           comentaros de varias lineas
+           ( tipo bloque)
+        */ 
+       // el codigo comentado no se ejecuta
+       // alert( este codigo no se ejecuta);
+
+
+        document.write("<h2>Hola Mundo!</h2>");
+        alert('hola soy una alerta!');
+        console.log('hola desde la consola');
+    </script>
+</body>
+</html>
